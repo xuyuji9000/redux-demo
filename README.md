@@ -1,2 +1,3 @@
-# boilerplate
-This is a react js project boilerplate.
+# redux demo
+
+This is a redux demo.
