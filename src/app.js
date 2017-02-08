@@ -5,11 +5,10 @@ import Layout from "./components/Layout";
 
 import { Provider } from "react-redux";
 import store from "./store";
+import Form from "./components/Form.js";
 
 
 render(
-    <Provider store={store}>
-        <Layout></Layout>
-    </Provider>,
+    <Form></Form>,
     document.getElementById('root')
 );
