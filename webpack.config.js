@@ -12,7 +12,7 @@ module.exports = {
   ],
   output: {
     path: __dirname + "/dist",
-    filename: "app.bundle.js",
+    filename: "bundle.js",
     publicPath: "/assets/"
   },
   plugins: debug ? [
