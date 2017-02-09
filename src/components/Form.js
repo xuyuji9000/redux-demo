@@ -1,4 +1,5 @@
 import React from "react";
+import axios from "axios";
 
 export default class Form extends React.Component
 {
@@ -15,7 +16,8 @@ export default class Form extends React.Component
 
     // igint when input submit
     handleSubmit = (event) => {
-        alert('A novel is submitted' + this.state.value);
+        axios.get('http://api.localhost:8081/json').
+            then((response) => {console.log(response);});
         event.preventDefault();
     }
 

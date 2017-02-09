@@ -6,6 +6,7 @@ import Layout from "./components/Layout";
 import { Provider } from "react-redux";
 import store from "./store";
 import ItemList from "./components/ItemList.js";
+import Form from "./components/Form.js";
 
 // Redux 
 const App = function() {
@@ -17,6 +18,6 @@ const App = function() {
 };
 
 render(
-    <ItemList></ItemList>,
+    <Form></Form>,
     document.getElementById('root')
 );
