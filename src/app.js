@@ -5,10 +5,18 @@ import Layout from "./components/Layout";
 
 import { Provider } from "react-redux";
 import store from "./store";
-import Form from "./components/Form.js";
+import ItemList from "./components/ItemList.js";
 
+// Redux 
+const App = function() {
+    return (
+        <Provider store={store}>
+            <Layout></Layout>
+        </Provider>
+    )
+};
 
 render(
-    <Form></Form>,
+    <ItemList></ItemList>,
     document.getElementById('root')
 );
