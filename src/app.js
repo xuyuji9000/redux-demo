@@ -18,6 +18,6 @@ const App = function() {
 };
 
 render(
-    <Form></Form>,
+    <App></App>,
     document.getElementById('root')
 );
